@@ -46,6 +46,6 @@ console.log(url.includes('sundar'))
 
 console.log(gameName.split('-'))
 
-// console.log(gameName.small())
+// console.log(gameName.small())-
 
 
