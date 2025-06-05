@@ -40,4 +40,33 @@ let myObj ={
  }
 
 
+
+
+//**************************************** Memory ***************************** */
+
+// stcck memory (primitive)use , heap memory(non-primitive)use
+//stack => diclar variable milta he copy value 
+ //heap => diclar variable orignal refarance  value milta he
+
+
+ //Stack
+ let myName = "Abhijit Mohanty";
+
+ let anotherName = myName
+anotherName = "Amiya Das"
+
+ console.log(anotherName);
+ console.log(myName) //only chance second value copy milta he
  
+//heap
+ let userOne ={
+  email: "user@gmail.com",
+  upi: "user989ubl"
+ }
+
+ let userTwo = userOne
+
+ userTwo.email = "user12@gmail.con"
+
+ console.log(userOne) //both value are same becuse ferarance
+ console.log(userTwo)
