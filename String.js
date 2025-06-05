@@ -27,7 +27,6 @@ console.log(gameName.indexOf('t'));
 const newString = gameName.substring(0, 4) //last value 4 inclide nehi hota ans=> abhi
 console.log(newString)
 
-
 const anotherString = gameName.slice(-8, 4) // 
 console.log(anotherString);
 

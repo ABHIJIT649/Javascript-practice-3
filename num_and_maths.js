@@ -33,7 +33,6 @@ console.log(Math.floor(4.9))
 console.log(Math.min(2,4,6,9,6))
 console.log(Math.max(2,4,6,9,6))
 
-
 //imp
 
 console.log(Math.random());

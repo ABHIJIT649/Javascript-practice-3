@@ -40,8 +40,6 @@ let myObj ={
  }
 
 
-
-
 //**************************************** Memory ***************************** */
 
 // stcck memory (primitive)use , heap memory(non-primitive)use

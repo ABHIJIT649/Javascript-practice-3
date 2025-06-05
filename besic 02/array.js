@@ -26,7 +26,6 @@ myArr.unshift(9) // add value in  array start
 myArr.shift() // remove value in  array start
 console.log(myArr)
 
-
 console.log(myArr.includes(9)); //question in arry 9 present he ya nehi
 console.log(myArr.indexOf(4)); //value kis index pe he show karega
 

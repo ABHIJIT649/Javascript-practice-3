@@ -7,7 +7,6 @@ accountCity = "bhubaneswar"
 accountEmail = "ab@.com"
 accountPass = "22121"
 accountCity = "jajpur"
-
 console.log( accountId);
 /*
 prefer to not use var

@@ -5,7 +5,6 @@
 
  alert("hello")
 
-
  // number =>2 to power 53
  //bighint
  // string => ""

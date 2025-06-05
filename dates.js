@@ -19,10 +19,8 @@ console.log(typeof myDate) //there are object type of adat
 let myCreatedDate = new Date ("01-14-2015")
 console.log(myCreatedDate.toLocaleString())
 
-
 let myTimeStamp = Date.now()
 console.log(myTimeStamp);
-
 console.log(myCreatedDate.getDate())
 
 console.log(Math.floor(Date.now()/1000));
