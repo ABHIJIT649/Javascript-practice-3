@@ -66,4 +66,6 @@ console.log(newuser)
 // users.id
 // console.log(users)
 
+console.log(users.hasOwnProperty('1'))
+
 
