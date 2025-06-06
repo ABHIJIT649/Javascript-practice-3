@@ -1,1 +1,1 @@
-console.log(jsUser.greeting)
+console.log(obj3)
