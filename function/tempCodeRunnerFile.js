@@ -1,1 +1,0 @@
-const result = addTwoNumber(6, 4) 
