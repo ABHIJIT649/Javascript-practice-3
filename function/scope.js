@@ -14,14 +14,14 @@
 
 // var c  = 300
 
-let a = 400
+let a = 400 
 
-if (true) {  //block scope
+if (true) {  
     let a = 10
      const b = 20
      var c = 30
-     console.log("inner" ,a); //block scope
+     console.log("inner :" ,a); //block scope
 }
-console.log(a);  //global scope
+console.log( "outer :",a);  //global scope
 
 // console.log(c);
