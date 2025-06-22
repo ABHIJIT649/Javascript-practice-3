@@ -45,11 +45,24 @@ for (let index = 0; index < myArray.length; index++) {
 for (let i = 0; i <=20; i++) {
 
     if (i == 5) {
-        console.log(`Detected ${i}`);
+        // console.log(`Detected ${i}`);
         break
     }
 
-   console.log(`value of i is: ${i}`);
+//    console.log(`value of i is: ${i}`);
 
     
 }
+
+// continue 
+
+for( i = 0 ; i <= 20 ; i++){
+   
+    if ( i === 6) {
+        console.log(`detected ${i}`);
+        continue
+    }
+    console.log(`value of list is ${i}`);
+} 
+
+
