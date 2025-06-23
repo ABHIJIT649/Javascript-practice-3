@@ -51,3 +51,25 @@ for (const [key, value] of map) {
     
 //     console.log(key , value);
 // }
+
+// iske upar ittirataiton
+const myCoading = [
+{
+    languageName: "javaScript",
+    languageFileNAme: "js"
+},
+{
+    languageName: "java",
+    languageFileNAme: "java"
+},
+{
+    languageName: "python",
+    languageFileNAme: "jy"
+}
+
+]
+
+myCoading.forEach( (item) => {
+
+    console.log(item.languageName);
+})
