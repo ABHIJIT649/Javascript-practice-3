@@ -4,5 +4,5 @@ const myTEmplist = document.getElementsByClassName('list-item')
 const myConAry = Array.from(myTEmplist);
 
 myTEmplist.forEach(function (li) {
-    li.
+    li.style.color = 'red';
 })
