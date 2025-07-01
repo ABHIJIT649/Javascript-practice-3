@@ -22,10 +22,26 @@ addLangOptimize("Amiya")
 
 // Edit the value
 
-const secondLang = document.querySelector("li:nth-child(2)")
-// secondLang.innerHTML = "C++" // correct but not use 
+// const secondLang = document.querySelector("li:nth-child(2)")
+// // secondLang.innerHTML = "C++" // correct but not use 
 
-const newli = document.createElement('li')
-newli.textContent = "mojo"
-// secondLang.replaceWith(newli)
+// const newli = document.createElement('li')
+// newli.textContent = "mojo"
+// // secondLang.replaceWith(newli)
+
+// const secondLang = document.querySelector("li:nth-child(2)")
+// // secondLang.innerHTML = "Abhijit"
+// const newLi = document.createElement('li')
+// newLi.textContent = "Mojo"
+// secondLang.replaceWith(newLi)
+
+
+// Edit 2nd example total outer html select and change
+const thirdLang = document.querySelector('li:first-child')
+thirdLang.outerHTML = '<li>TypeScript</li>'
+
+// remove the value in list item
+
+const lastlang = document.querySelector('li:last-child')
+lastlang.remove()
 
